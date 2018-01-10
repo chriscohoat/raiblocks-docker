@@ -26,6 +26,4 @@ RUN make rai_node
 
 RUN mkdir /root/data
 
-#RUN cp /root/rai_build/rai_node,librai_lib.so} /root
-
 CMD /root/rai_build/rai_node --daemon --data_path /root/data
