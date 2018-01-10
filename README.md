@@ -1,10 +1,10 @@
-# To run node
+## To run the node
 
-## Install Nvidia Docker
+1) Install Nvidia Docker
 
 https://github.com/NVIDIA/nvidia-docker
 
-## Run the node
+2) Run the node
 
 docker run --runtime=nvidia -it -p 7075:7075/udp -p 7075:7075 -p 127.0.0.1:7076:7076 -v PATH_TO_LOCAL_DATA_DIRECTORY:/root/data chriscohoat/raiblocks-node-gpu
 
